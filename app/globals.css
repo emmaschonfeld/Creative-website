@@ -1,0 +1,6 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { margin:0; padding:0; scroll-behavior:auto; scrollbar-gutter:stable; }
+body { margin:0; padding:0; background:#1a0a08; font-family:'DM Sans',sans-serif; overflow-x:hidden; }
+@keyframes fadeUp { from{opacity:0;transform:translateY(28px)} to{opacity:1;transform:translateY(0)} }
+@keyframes glow { 0%,100%{opacity:0.6} 50%{opacity:1} }
+@keyframes bob { 0%,100%{transform:translateX(-50%) translateY(0)} 50%{transform:translateX(-50%) translateY(-7px)} }
